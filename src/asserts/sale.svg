@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="134px" viewBox="0 0 136 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>fsux_图表</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-489.000000, -1700.000000)" fill-rule="nonzero">
+            <g id="fsux_图表" transform="translate(465.000000, 1676.000000)">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="184" height="184"></rect>
+                <polygon id="路径" fill="#FFFFFF" points="61 37 87 37 87 95 61 95"></polygon>
+                <polygon id="路径" fill="#FFFFFF" points="24 36 50 36 50 158 24 158"></polygon>
+                <polygon id="路径" fill="#FFFFFF" points="134 66 160 66 160 145 134 145"></polygon>
+                <polygon id="路径" fill="#68E3E2" points="97 24 123 24 123 66 97 66"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

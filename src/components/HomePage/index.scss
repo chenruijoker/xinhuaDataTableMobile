@@ -1,0 +1,132 @@
+.hometop {
+    overflow: hidden;
+    background-color: #2f80ed;
+    background: linear-gradient(180deg, #2f80ed 0%, #56ccf2 100%);
+    display: flex;
+    .topbox {
+        flex: 1;
+        font-size: 34px;
+        font-weight: 500;
+        color: white;
+        display: flex;
+        .title {
+            text-align: center;
+            margin: auto;
+        }
+        .avatar {
+            height: 74px;
+            width: 74px;
+            margin: 10px;
+            margin-left: 35px;
+        }
+    }
+}
+.banner {
+    background-image: url("../../asserts/banner.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    width: 702px;
+    height: 250px;
+    margin: 20px auto;
+    display: flex;
+    .desc {
+        align-self: center;
+        margin-left: 35px;
+        .descOne {
+            font-size: 34px;
+            font-weight: bolder;
+            color: #343434;
+        }
+        .descTwo {
+            font-size: 24px;
+            font-weight: 400;
+            color: #676767;
+        }
+    }
+}
+.cardOuter {
+    width: 702px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .card {
+        width: 341px;
+        height: 470px;
+        background: linear-gradient(180deg, #2f80ed 0%, #56ccf2 100%);
+        background-image: url("../../asserts/card.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        display: flex;
+        .cardInside {
+            margin: auto;
+            width: 281px;
+            color: white;
+            .va{
+                margin-bottom: 14px;
+            }
+            .vb{
+                margin-top: 10px;
+            }
+            .cardValues {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 281px;
+                overflow: hidden;
+                .numA {
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: #ffe59e;
+                }
+                .tips {
+                    display: flex;
+                    align-items: center;
+                    .tipA {
+                        font-size: 24px;
+                        font-weight: 600;
+                    }
+                    .circleA {
+                        width: 10px;
+                        height: 10px;
+                        background-color: #ffffff;
+                        border-radius: 50%;
+                        margin: 10px;
+                    }
+                    .circleB {
+                        width: 8px;
+                        height: 8px;
+                        background-color: #ffffff;
+                        border-radius: 50%;
+                        margin: 11px;
+                    }
+                }
+            }
+            .imgIcoBox {
+                text-align: center;
+                margin:40px auto;
+                .Ico {
+                    width: 134px;
+                    height: 134px;
+                }
+            }
+            .cardBox1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .rightArrow {
+                    width: 20px;
+                    height: 20px;
+                }
+                .cardTitle {
+                    font-size: 34px;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,315 @@
+.flex-space {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.line {
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    height: 2px;
+    width: 657px;
+}
+
+.buttonShow {
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    .buttonBox {
+        padding: 24px 0;
+        color: #808080;
+        .show {
+            margin: auto;
+        }
+        .buttonImg1,
+        .buttonImg2 {
+            margin-left: 10px;
+            width: 10px;
+        }
+        .buttonImg2 {
+            transform: rotate(-90deg);
+            transition: transform linear 0.2s;
+        }
+        .buttonImg1 {
+            transform: rotate(90deg);
+            transition: transform linear 0.2s;
+        }
+    }
+}
+
+.tablePage {
+    .tableHead {
+        background-image: url("../../asserts/tabletop.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 750px;
+        height: 300px;
+        color: white;
+        overflow: hidden;
+        .tableTitleBox {
+            display: flex;
+            font-weight: 500;
+            height: 74px;
+            font-size: 34px;
+            padding: 10px 0;
+            .titlebox {
+                display: flex;
+                flex: 1;
+                .title {
+                    margin: auto;
+                    text-align: center;
+                }
+                .leftImg {
+                    width: 20px;
+                    align-self: center;
+                    transform: rotate(180deg);
+                    margin-left: 32px;
+                }
+            }
+        }
+        .tableAbstract {
+            margin-top: 60px;
+            font-size: 28px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+            .abstractVal {
+                text-align: center;
+                flex: 1;
+            }
+            .numval {
+                margin: 0 auto;
+                box-sizing: border-box;
+                margin-top: 2px;
+                font-size: 36px;
+                font-weight: bolder;
+                color: #ffe58f;
+                overflow: hidden;
+            }
+            .numval1 {
+                width: 200px;
+            }
+            .numval2 {
+                width: 150px;
+            }
+        }
+    }
+    .contentBox {
+        width: 700px;
+        margin: 0 auto;
+        margin-top: 20px;
+        .icoBox {
+            display: flex;
+            align-items: center;
+            color: #323232;
+            font-weight: bolder;
+            font-size: 26px;
+            .icoItem1,
+            .icoItem2 {
+                text-align: center;
+                flex: 1;
+                overflow: hidden;
+                height: 148px;
+                display: flex;
+                .itemCon {
+                    margin: auto;
+                }
+            }
+            .icoItem1 {
+                background-color: rgba($color: #000000, $alpha: 0);
+            }
+            .icoItem2 {
+                background-color: white;
+                border-radius: 20px 20px 0px 0px;
+            }
+            .icoImg1,
+            .icoImg2 {
+                width: 45px;
+                height: 45px;
+                margin-bottom: 2px;
+            }
+            .icoImg2 {
+                transform: translateY(-100px);
+                filter: drop-shadow(#68e3e2 0px 100px);
+            }
+        }
+        .detailBox1,
+        .detailBox3,
+        .detailBox2 {
+            background-color: white;
+            padding: 30px 23px 0;
+            overflow: hidden;
+            .title {
+                font-size: 32px;
+                font-weight: bolder;
+            }
+            .titleAndTime {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .stockType {
+                    font-size: 28px;
+                    color: #323232;
+                }
+                .timeShow {
+                    margin-top: 26px;
+                    display: flex;
+                    align-items: center;
+                    .time {
+                        color: #808080;
+                        font-size: 24px;
+                        background: #f6f6f6;
+                        border-radius: 22px;
+                        padding: 6px 16px;
+                    }
+                    .timeIco {
+                        width: 10px;
+                        margin-left: 12px;
+                    }
+                }
+            }
+            .infoBoxOuter {
+                margin-top: 32px;
+                .infoBox {
+                    width: 218px;
+                    margin-bottom: 23px;
+                    .infoTitle {
+                        font-size: 24px;
+                        color: #808080;
+                    }
+                    .infoCount {
+                        width: 200px;
+                        font-weight: bolder;
+                        font-size: 30px;
+                        color: #333333;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        word-break: break-all;
+                    }
+                }
+            }
+        }
+        .detailBox1 {
+            border-radius: 20px 20px 0 0;
+        }
+        .detailBox3 {
+            border-radius: 20px 0 0 0;
+        }
+        .detailBox2 {
+            border-radius: 0 20px 0 0;
+        }
+    }
+}
+
+.statisticalBox {
+    background-color: white;
+    overflow: hidden;
+    height: 100px;
+    transition: all linear 0.2s;
+    .tipsBox {
+        padding: 12px 23px;
+        font-size: 24px;
+        color: #808080;
+        .tipBox {
+            margin-right: 21px;
+        }
+        .tipCircle {
+            width: 12px;
+            height: 12px;
+            background: #5b8ff9;
+            border-radius: 50%;
+            margin-right: 12px;
+        }
+    }
+    .departBoxOuter1 {
+        background-color: #e6e6e6;
+    }
+    .departBoxOuter2 {
+        background-color: white;
+    }
+    .departBox {
+        display: flex;
+        padding: 23px 25px 0 23px;
+        .itemsBox {
+            overflow: hidden;
+            width: 422px;
+            .itemBoxA {
+                width: 140px;
+                overflow: hidden;
+                margin-bottom: 25px;
+            }
+        }
+        .fieldCircle {
+            width: 12px;
+            height: 12px;
+            background: #5b8ff9;
+            border-radius: 50%;
+            margin-right: 12px;
+        }
+        .fieldValue {
+            width: 116px;
+            padding: 10px;
+            box-sizing: border-box;
+            font-size: 24px;
+            font-weight: 600;
+            color: #343434;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            word-break: break-all;
+        }
+        .departTitle {
+            width: 232px;
+            font-size: 28px;
+            font-weight: 500;
+            color: #333333;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+.loadingBox {
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+}
+.chartBox {
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px auto;
+    .picFont {
+        padding: 31px 23px 0px 23px;
+        .chartDesc {
+            font-size: 32px;
+            font-weight: bolder;
+            color: #323232;
+        }
+        .yearShow {
+            font-weight: 500;
+            color: #808080;
+            font-size: 24px;
+        }
+        .departTitle {
+            margin-top: 29px;
+            font-size: 24px;
+            color: #323232;
+        }
+    }
+}
+
+.F2Chart {
+    display: flex;
+    #container {
+        width: 650px;
+        height: 400px;
+        margin: 20px auto;
+    }
+}
+
